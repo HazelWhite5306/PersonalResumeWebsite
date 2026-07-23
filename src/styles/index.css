@@ -1,0 +1,19 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* Print styles for resume */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  
+  header, footer {
+    display: none !important;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+}
